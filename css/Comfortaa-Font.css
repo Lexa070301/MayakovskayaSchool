@@ -1,18 +1,21 @@
 @font-face {
     font-family: 'Comfortaa';
     src: local('Comfortaa Light'), local('Comfortaa-Light'), url('../fonts/Comfortaa/comfortaalight.woff2') format('woff2'), url('../fonts/Comfortaa/comfortaalight.woff') format('woff'), url('../fonts/Comfortaa/comfortaalight.ttf') format('truetype');
+    font-display: swap;
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
     font-family: 'Comfortaa';
     src: local('Comfortaa'), url('../fonts/Comfortaa/comfortaa.woff2') format('woff2'), url('../fonts/Comfortaa/comfortaa.woff') format('woff'), url('../fonts/Comfortaa/comfortaa.ttf') format('truetype');
+    font-display: swap;
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Comfortaa';
     src: local('Comfortaa Bold'), local('Comfortaa-Bold'), url('../fonts/Comfortaa/comfortaabold.woff2') format('woff2'), url('../fonts/Comfortaa/comfortaabold.woff') format('woff'), url('../fonts/Comfortaa/comfortaabold.ttf') format('truetype');
+    font-display: swap;
     font-weight: 700;
     font-style: normal;
 }
