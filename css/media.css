@@ -146,7 +146,7 @@
         padding-bottom: 50px;
     }
 
-    .directions, .teachers, .aim, .reviews {
+    .directions, .teachers, .aim, .reviews, .questions {
         padding: 50px 0;
     }
 
@@ -254,9 +254,22 @@
     .first-screen__form-label {
         margin-top: 20px;
     }
+    .logo-wrap img {
+        width: 150px;
+    }
 }
 
 @media screen and (max-width: 500px) {
+    .first-screen__form-label {
+        margin-top: 0;
+    }
+    .container {
+        width: 90%;
+    }
+    .form-block {
+        margin-top: 30px;
+        padding-top: 50px;
+    }
     .first-screen__title {
         font-size: 40px;
     }

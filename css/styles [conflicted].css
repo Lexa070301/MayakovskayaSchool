@@ -608,4 +608,7 @@ body {
     line-height: 130%;
 }
 
-.email-card__
+.email-card__icon {
+    width: 100px;
+    height: 100px;
+}
