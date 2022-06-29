@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    new WOW().init();
+    ;
+
     let teachersSlider = $('.teachers__slider').slick({
         infinite: true,
         slidesToShow: 2,
@@ -13,7 +16,7 @@ $(document).ready(function () {
 
     updateSlider()
 
-    $(window).resize(function() {
+    $(window).resize(function () {
         updateSlider()
     });
 
@@ -55,7 +58,7 @@ $(document).ready(function () {
         }
     }
 
-    document.addEventListener("mousemove",  function (event) {
+    document.addEventListener("mousemove", function (event) {
         this.querySelectorAll(".mouse").forEach((shift) => {
             const position = shift.dataset.value;
             const x = (window.innerWidth - event.pageX * position) / 90;
@@ -64,6 +67,28 @@ $(document).ready(function () {
             shift.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
         });
     });
+    const line = $(".scroller__line")
+    const ok1 = $(".scroller__line__items__item__icon.one")
+    const ok2 = $(".scroller__line__items__item__icon.two")
+    const ok3 = $(".scroller__line__items__item__icon.three")
+    const top = line.offset().top - screen.height
+    const bottom = line.offset().top
+    let percent = 100 - (bottom - window.scrollY) / (bottom - top) * 100
+
+    function loadScrollerAnim() {
+        line.css('width', percent + "%")
+        percent > 25 ? ok1.css('opacity', '100%') : ok1.css('opacity', '0%')
+        percent > 50 ? ok2.css('opacity', '100%') : ok2.css('opacity', '0%')
+        percent > 75 ? ok3.css('opacity', '100%') : ok3.css('opacity', '0%')
+    }
+
+    loadScrollerAnim()
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > top && window.scrollY < bottom) {
+            percent = 100 - (bottom - window.scrollY) / (bottom - top) * 100
+            loadScrollerAnim()
+        }
+    })
 
     $("input[type='tel']").inputmask("+7(999)999-99-99")
     $("button[type='submit']").on("click", function (e) {

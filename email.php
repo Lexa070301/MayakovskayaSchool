@@ -72,6 +72,7 @@ if(isset($_POST["submit"])) {
 <script src="js/aos.js"></script>
 <script src="js/jquery.inputmask.bundle.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>

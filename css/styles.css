@@ -1,5 +1,6 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&cache=clear&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
     --black: #222222;
     --green: #7CE7D7;
@@ -36,7 +37,7 @@ body {
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
-    line-height: 160%;
+    line-height: 120%;
     position: relative;
     display: inline-block;
     margin: 0;
@@ -222,7 +223,7 @@ body {
     top: 470px;
 }
 
-.society .first-screen__title{
+.society .first-screen__title {
     font-size: 60px;
     line-height: 64px;
 }
@@ -608,4 +609,46 @@ body {
     line-height: 130%;
 }
 
-.email-card__
+.scroller {
+    padding: 100px 0;
+}
+
+.scroller__line {
+    margin-top: 50px;
+    height: 10px;
+    width: 20px;
+    border-radius: 5px;
+    background-color: var(--green);
+    display: block;
+    position: relative;
+}
+
+.scroller__line__arrow {
+    position: absolute;
+    right: -35px;
+    top: -11px;
+}
+
+.scroller__line__items {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.scroller__line__items__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scroller__line__items__item__text {
+    text-align: center;
+    max-width: 300px;
+}
+
+.scroller__line__items__item__icon {
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    transition: 0.5s ease all;
+}
