@@ -29,6 +29,7 @@ body {
     overflow-x: hidden;
     font-family: var(--comfortaa);
     line-height: 160%;
+    max-width: 100vw;
 }
 
 .h1 {

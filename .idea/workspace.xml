@@ -3,19 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3f93f3e-150d-4703-89be-0781ba14943d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biology.html" beforeDir="false" afterPath="$PROJECT_DIR$/biology.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chemistry.html" beforeDir="false" afterPath="$PROJECT_DIR$/chemistry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege.html" beforeDir="false" afterPath="$PROJECT_DIR$/ege.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/english.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/informatics.html" beforeDir="false" afterPath="$PROJECT_DIR$/informatics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/literature.html" beforeDir="false" afterPath="$PROJECT_DIR$/literature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/math.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oge.html" beforeDir="false" afterPath="$PROJECT_DIR$/oge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physics.html" beforeDir="false" afterPath="$PROJECT_DIR$/physics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/russian.html" beforeDir="false" afterPath="$PROJECT_DIR$/russian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondary-school.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary-school.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/society.html" beforeDir="false" afterPath="$PROJECT_DIR$/society.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +82,7 @@
       <workItem from="1656579214173" duration="1338000" />
       <workItem from="1656586517877" duration="47000" />
       <workItem from="1656589002827" duration="764000" />
-      <workItem from="1656592980798" duration="819000" />
+      <workItem from="1656592980798" duration="1598000" />
     </task>
     <servers />
   </component>
