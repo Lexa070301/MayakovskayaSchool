@@ -168,7 +168,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .questions__top {
+    .questions__bottom {
         flex-direction: column;
     }
 

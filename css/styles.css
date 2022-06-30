@@ -510,9 +510,9 @@ body {
     padding: 100px 0;
 }
 
-.questions__top {
+.questions__bottom {
     display: flex;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .questions__text {
@@ -523,6 +523,7 @@ body {
     line-height: 160%;
     color: var(--pink);
     max-width: 428px;
+    margin: 0;
 }
 
 .questions__list {
