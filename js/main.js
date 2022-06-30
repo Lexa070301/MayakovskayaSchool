@@ -120,4 +120,9 @@ $(document).ready(function () {
             e.preventDefault()
         }
     })
+    $(".faq__item__top").on('click', function () {
+        const item = $(this).parents('.faq__item')
+        item.toggleClass('active')
+        item.find('.faq__item__content').slideToggle()
+    })
 })

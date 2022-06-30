@@ -3,23 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d3f93f3e-150d-4703-89be-0781ba14943d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/biology.html" beforeDir="false" afterPath="$PROJECT_DIR$/biology.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chemistry.html" beforeDir="false" afterPath="$PROJECT_DIR$/chemistry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ege.html" beforeDir="false" afterPath="$PROJECT_DIR$/ege.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email.php" beforeDir="false" afterPath="$PROJECT_DIR$/email.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/english.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/history.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/informatics.html" beforeDir="false" afterPath="$PROJECT_DIR$/informatics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/literature.html" beforeDir="false" afterPath="$PROJECT_DIR$/literature.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/math.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oge.html" beforeDir="false" afterPath="$PROJECT_DIR$/oge.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physics.html" beforeDir="false" afterPath="$PROJECT_DIR$/physics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/russian.html" beforeDir="false" afterPath="$PROJECT_DIR$/russian.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secondary-school.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary-school.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/society.html" beforeDir="false" afterPath="$PROJECT_DIR$/society.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,18 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/mnt/EC06DC1506DBDF20/folder/folders/web/web-dev/MayakovskayaSchool&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -97,6 +78,7 @@
       <workItem from="1656348244873" duration="3882000" />
       <workItem from="1656503582743" duration="755000" />
       <workItem from="1656532321191" duration="3944000" />
+      <workItem from="1656562298962" duration="5226000" />
     </task>
     <servers />
   </component>
