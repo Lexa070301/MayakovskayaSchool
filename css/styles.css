@@ -672,6 +672,13 @@ body {
     justify-items: center;
 }
 
+.simple__image {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+}
+
 .faq {
     padding: 100px 0;
 }
