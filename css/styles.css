@@ -4,13 +4,17 @@
 :root {
     --black: #222222;
     --green: #7CE7D7;
+    --green-light: #dcfff9;
     --pink: #E683C3;
+    --pink-light: #ffecf7;
     --yellow: #F7DC69;
+    --yellow-light: #fdeeb0;
     --bg: #F6F6F6;
     --light-grey: #C1C1C1;
     /*--rubik: "Rubik", Arial, sans-serif;*/
     --rubik: "Nunito", Arial, sans-serif;
-    --comfortaa: "Comfortaa", Arial, sans-serif;
+    /*--comfortaa: "Comfortaa", Arial, sans-serif;*/
+    --comfortaa: "Nunito", Arial, sans-serif;
     --shadow: 0 80px 100px rgba(0, 0, 0, 0.07),
     0 33px 40px rgba(0, 0, 0, 0.05),
     0 17px 22px rgba(0, 0, 0, 0.04),
@@ -248,20 +252,20 @@ body {
 
 .first-screen__form-label {
     font-family: var(--rubik);
-    font-weight: 600;
+    font-weight: 700;
     font-size: 30px;
     line-height: 160%;
     color: var(--pink);
     display: block;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 
 .form-block {
     margin-top: 75px;
     padding: 75px 0;
-    background-color: #dcfff9;
+    background-color: var(--green-light);
 }
 
 .directions {
@@ -346,7 +350,7 @@ body {
 
 .teachers {
     padding: 100px 0;
-    background-color: #fdeeb0;
+    background-color: var(--yellow-light);
 }
 
 .teachers .container {
@@ -473,7 +477,7 @@ body {
 
 .reviews {
     padding: 100px 0;
-    background-color: #ffecf7;
+    background-color: var(--pink-light);
 }
 
 .reviews__content {
@@ -491,6 +495,7 @@ body {
 }
 
 .reviews__slide__img {
+    width: 150px;
     margin-right: 25px;
     border-radius: 10px;
 }
@@ -508,11 +513,12 @@ body {
 
 .questions {
     padding: 100px 0;
+    background-color: var(--green-light);
 }
 
-.questions__bottom {
+.questions__top {
     display: flex;
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .questions__text {
@@ -668,7 +674,7 @@ body {
 
 .simple {
     padding: 100px 0;
-    background-color: #dcfff9;
+    background-color: var(--green-light);
 }
 
 .simple .container {
