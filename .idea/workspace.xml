@@ -5,11 +5,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biology.html" beforeDir="false" afterPath="$PROJECT_DIR$/biology.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chemistry.html" beforeDir="false" afterPath="$PROJECT_DIR$/chemistry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ege.html" beforeDir="false" afterPath="$PROJECT_DIR$/ege.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/english.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/reviews/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/reviews/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/teachers/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/teachers/2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/informatics.html" beforeDir="false" afterPath="$PROJECT_DIR$/informatics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/literature.html" beforeDir="false" afterPath="$PROJECT_DIR$/literature.html" afterDir="false" />
@@ -99,7 +102,9 @@
       <workItem from="1656589002827" duration="764000" />
       <workItem from="1656592980798" duration="3962000" />
       <workItem from="1656660550304" duration="644000" />
-      <workItem from="1657186393960" duration="3161000" />
+      <workItem from="1657186393960" duration="3467000" />
+      <workItem from="1657197155793" duration="606000" />
+      <workItem from="1657530277906" duration="1203000" />
     </task>
     <servers />
   </component>
