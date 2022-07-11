@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Онлайн Школа Маяковской Анастасии</title>
   <link rel="preload" href="fonts/Comfortaa/comfortaa.woff2" as="font">
-
+  <link rel="stylesheet" href="css/drawer.min.css">
+  <link rel="stylesheet" href="css/likely.css">
   <link rel="stylesheet" href="css/Comfortaa-Font.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/fix.css">
@@ -16,12 +17,52 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
+<body class="drawer drawer--right">
 <header>
   <div class="container">
     <a href="./index.html" class="logo-wrap">
       <img src="img/logo.svg" alt="Logo">
     </a>
+    <nav class="menu" role="navigation">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#contacts" class="menu__item__link">Контакты</a>
+          <img class="menu__item__icon" src="img/icons/slider-right.svg" alt="Arrow">
+        </li>
+        <li class="menu__item">
+          <a href="./index.html#directions" class="menu__item__link">Направления</a>
+          <img class="menu__item__icon" src="img/icons/slider-right.svg" alt="Arrow">
+        </li>
+        <li class="menu__item">
+          <a href="#faq" class="menu__item__link">FAQ</a>
+          <img class="menu__item__icon" src="img/icons/slider-right.svg" alt="Arrow">
+        </li>
+        <li class="menu__item">
+          <a href="./index.html#prices" class="menu__item__link">Цены</a>
+          <img class="menu__item__icon" src="img/icons/slider-right.svg" alt="Arrow">
+        </li>
+      </ul>
+    </nav>
+    <nav class="drawer-nav" role="navigation">
+      <ul class="drawer-menu">
+        <li class="drawer-menu__item">
+          <a href="#contacts" class="drawer-menu__item__link">Контакты</a>
+        </li>
+        <li class="drawer-menu__item">
+          <a href="./index.html#directions" class="drawer-menu__item__link">Направления</a>
+        </li>
+        <li class="drawer-menu__item">
+          <a href="#faq" class="drawer-menu__item__link">FAQ</a>
+        </li>
+        <li class="drawer-menu__item">
+          <a href="./index.html#prices" class="drawer-menu__item__link">Цены</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
   </div>
 </header>
 <main class="history">
@@ -388,7 +429,7 @@
       </div>
     </div>
   </section>
-  <section class="faq">
+  <section class="faq" id="faq">
     <div class="container">
       <h2 class="h2">
         Часто задаваемые вопросы
@@ -509,7 +550,45 @@
   </section>
 </main>
 
+<footer id="contacts">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__block">
+        <h4 class="footer__title">Почта</h4>
+        <a href="mailto:mayakovskayaanastasiya@gmail.com" class="footer__text text">
+          mayakovskayaanastasiya@gmail.com
+        </a>
+      </div>
+      <div class="footer__block">
+        <h4 class="footer__title">Телефон</h4>
+        <a href="tel:89969190166" class="footer__text text">
+          8 (996) 919-01-66
+        </a>
+      </div>
+      <div class="footer__block">
+        <h4 class="footer__title">Напишите нам</h4>
+        <div class="likely likely-big likely-light">
+          <div class="telegram"></div>
+          <div class="whatsapp"></div>
+          <div class="viber"></div>
+        </div>
+      </div>
+      <div class="footer__block">
+        <h4 class="footer__title">Наши соц-сети</h4>
+        <div class="likely likely-big likely-light">
+          <div class="vkontakte"></div>
+          <div class="facebook"></div>
+          <div class="twitter"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 <script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/iscroll.min.js"></script>
+<script src="js/drawer.min.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/likely.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/jquery.inputmask.bundle.min.js"></script>
 <script src="js/slick.min.js"></script>

@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
+<body class="drawer drawer--right">
 <header>
     <div class="container">
         <a href="./index.html" class="logo-wrap">
@@ -68,7 +68,45 @@ if(isset($_POST["submit"])) {
     }
 }
 ?>
+<footer id="contacts">
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__block">
+        <h4 class="footer__title">Почта</h4>
+        <a href="mailto:mayakovskayaanastasiya@gmail.com" class="footer__text text">
+          mayakovskayaanastasiya@gmail.com
+        </a>
+      </div>
+      <div class="footer__block">
+        <h4 class="footer__title">Телефон</h4>
+        <a href="tel:89969190166" class="footer__text text">
+          8 (996) 919-01-66
+        </a>
+      </div>
+      <div class="footer__block">
+        <h4 class="footer__title">Напишите нам</h4>
+        <div class="likely likely-big likely-light">
+          <div class="telegram"></div>
+          <div class="whatsapp"></div>
+          <div class="viber"></div>
+        </div>
+      </div>
+      <div class="footer__block">
+        <h4 class="footer__title">Наши соц-сети</h4>
+        <div class="likely likely-big likely-light">
+          <div class="vkontakte"></div>
+          <div class="facebook"></div>
+          <div class="twitter"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 <script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/iscroll.min.js"></script>
+<script src="js/drawer.min.js"></script>
+<script src="js/typed.js"></script>
+<script src="js/likely.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/jquery.inputmask.bundle.min.js"></script>
 <script src="js/slick.min.js"></script>
