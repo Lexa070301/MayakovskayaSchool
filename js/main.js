@@ -1,6 +1,21 @@
 $(document).ready(function () {
     new WOW().init();
-    ;
+    $('.drawer').drawer();
+
+    new Typed('.first-screen__title span',  {
+        strings: [
+            `<span class="green">Онлайн</span>-школа для <br>
+          ребят с большими <br>
+          <span class="pink">амбицыями</span>`,
+            `<span class="green">Онлайн</span>-школа для <br>
+          ребят с большими <br>
+          <span class="pink">амбициями</span>`
+        ],
+        typeSpeed: 80,
+        backSpeed: 100,
+        backDelay: 500
+    })
+
 
     let teachersSlider = $('.teachers__slider').slick({
         infinite: true,

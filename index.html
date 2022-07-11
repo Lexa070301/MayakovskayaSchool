@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Онлайн Школа Маяковской Анастасии</title>
   <link rel="preload" href="fonts/Comfortaa/comfortaa.woff2" as="font">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
   <link rel="stylesheet" href="css/Comfortaa-Font.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/fix.css">
@@ -16,12 +16,52 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
-<body>
+<body class="drawer drawer--right">
 <header>
   <div class="container">
     <a href="./index.html" class="logo-wrap">
       <img src="img/logo.svg" alt="Logo">
     </a>
+    <nav class="menu" role="navigation">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a href="#contacts" class="menu__item__link">Контакты</a>
+          <img class="menu__item__icon" src="img/icons/slider-right.svg" alt="Arrow">
+        </li>
+        <li class="menu__item">
+          <a href="#directions" class="menu__item__link">Направления</a>
+          <img class="menu__item__icon" src="img/icons/slider-right.svg" alt="Arrow">
+        </li>
+        <li class="menu__item">
+          <a href="#faq" class="menu__item__link">FAQ</a>
+          <img class="menu__item__icon" src="img/icons/slider-right.svg" alt="Arrow">
+        </li>
+        <li class="menu__item">
+          <a href="#prices" class="menu__item__link">Цены</a>
+          <img class="menu__item__icon" src="img/icons/slider-right.svg" alt="Arrow">
+        </li>
+      </ul>
+    </nav>
+    <nav class="drawer-nav" role="navigation">
+      <ul class="drawer-menu">
+        <li class="drawer-menu__item">
+          <a href="#contacts" class="drawer-menu__item__link">Контакты</a>
+        </li>
+        <li class="drawer-menu__item">
+          <a href="#directions" class="drawer-menu__item__link">Направления</a>
+        </li>
+        <li class="drawer-menu__item">
+          <a href="#faq" class="drawer-menu__item__link">FAQ</a>
+        </li>
+        <li class="drawer-menu__item">
+          <a href="#prices" class="drawer-menu__item__link">Цены</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+    </button>
   </div>
 </header>
 <main>
@@ -30,13 +70,11 @@
       <img class="first-screen__globe" src="img/first-screen/decor/icons/first-screen-globe.svg" alt="Icon">
       <div class="first-screen__column">
         <h1 class="h1 first-screen__title">
-          <span class="green">Онлайн</span>-школа для <br>
-          ребят с большими <br>
-          <span class="pink">амбициями</span>
+          <span></span>
         </h1>
         <span class="subtitle first-screen__subtitle">
-                    За учебный год подготовим вас к ЕГЭ, ОГЭ и ВПР на максимальный балл. Подтянем школьную программу и сделаем так, что Альберт Эйнштейн  позавидует вашим знаниям.
-                </span>
+            За учебный год подготовим вас к ЕГЭ, ОГЭ и ВПР на максимальный балл. Подтянем школьную программу и сделаем так, что Альберт Эйнштейн  позавидует вашим знаниям.
+        </span>
         <div class="mouse_move">
           <img class="first-screen__decor first-screen__decor-1 mouse"
                src="img/first-screen/decor/decor-1.svg"
@@ -520,6 +558,9 @@
   </section>
 </main>
 <script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 <script src="js/aos.js"></script>
 <script src="js/jquery.inputmask.bundle.min.js"></script>
 <script src="js/slick.min.js"></script>
