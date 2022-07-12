@@ -1280,3 +1280,46 @@ a.footer__text:hover {
     font-size: 24px;
     margin-bottom: 5px;
 }
+
+.footer__block__links {
+    display: flex;
+}
+
+.footer__block__link {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, .3);
+    transition: 0.3s ease all;
+}
+
+.footer__block__link img {
+    height: 25px;
+}
+
+.footer__block__link.telegram:hover {
+    background: #0088CC
+}
+
+.footer__block__link.whatsapp:hover {
+    background: #25D366
+}
+
+.footer__block__link.viber:hover {
+    background: #7360f2
+}
+
+.footer__block__link.vk:hover {
+    background: #4376A6
+}
+
+.footer__block__link.instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}

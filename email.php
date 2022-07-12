@@ -85,18 +85,27 @@ if(isset($_POST["submit"])) {
       </div>
       <div class="footer__block">
         <h4 class="footer__title">Напишите нам</h4>
-        <div class="likely likely-big likely-light">
-          <div class="telegram"></div>
-          <div class="whatsapp"></div>
-          <div class="viber"></div>
+        <div class="footer__block__links">
+          <a class="footer__block__link telegram" target="_blank">
+            <img src="img/icons/socials/telegram.svg" alt="Telegram">
+          </a>
+          <a class="footer__block__link whatsapp" href="https://api.whatsapp.com/send?phone=79969190166" target="_blank">
+            <img src="img/icons/socials/whatsapp.svg" alt="Whatsapp">
+          </a>
+          <a class="footer__block__link viber" href="viber://contact?number=%2B79969190166" target="_blank">
+            <img src="img/icons/socials/viber.svg" alt="Viber">
+          </a>
         </div>
       </div>
       <div class="footer__block">
         <h4 class="footer__title">Наши соц-сети</h4>
-        <div class="likely likely-big likely-light">
-          <div class="vkontakte"></div>
-          <div class="facebook"></div>
-          <div class="twitter"></div>
+        <div class="footer__block__links">
+          <a class="footer__block__link vk" href="https://vk.com/mayakovskaya_school" target="_blank">
+            <img src="img/icons/socials/vk.svg" alt="Vk">
+          </a>
+          <a class="footer__block__link instagram" href="https://instagram.com/mayakovskaya_school?igshid=YmMyMTA2M2Y=" target="_blank">
+            <img src="img/icons/socials/instagram.svg" alt="Instagram">
+          </a>
         </div>
       </div>
     </div>
@@ -106,7 +115,6 @@ if(isset($_POST["submit"])) {
 <script src="js/iscroll.min.js"></script>
 <script src="js/drawer.min.js"></script>
 <script src="js/typed.js"></script>
-<script src="js/likely.js"></script>
 <script src="js/aos.js"></script>
 <script src="js/jquery.inputmask.bundle.min.js"></script>
 <script src="js/slick.min.js"></script>
