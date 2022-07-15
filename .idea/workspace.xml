@@ -5,14 +5,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/biology.html" beforeDir="false" afterPath="$PROJECT_DIR$/biology.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chemistry.html" beforeDir="false" afterPath="$PROJECT_DIR$/chemistry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ege.html" beforeDir="false" afterPath="$PROJECT_DIR$/ege.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/email.php" beforeDir="false" afterPath="$PROJECT_DIR$/email.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/english.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/history.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/informatics.html" beforeDir="false" afterPath="$PROJECT_DIR$/informatics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/literature.html" beforeDir="false" afterPath="$PROJECT_DIR$/literature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/math.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oge.html" beforeDir="false" afterPath="$PROJECT_DIR$/oge.html" afterDir="false" />
@@ -60,6 +58,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/folders/web/web-dev/salesfinder" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -115,7 +114,14 @@
       <workItem from="1657555601872" duration="4528000" />
       <workItem from="1657563517494" duration="9525000" />
       <workItem from="1657610314591" duration="648000" />
-      <workItem from="1657629572433" duration="3068000" />
+      <workItem from="1657629572433" duration="3568000" />
+      <workItem from="1657826201803" duration="123000" />
+      <workItem from="1657826799971" duration="22000" />
+      <workItem from="1657826845085" duration="309000" />
+      <workItem from="1657827170802" duration="211000" />
+      <workItem from="1657827400248" duration="145000" />
+      <workItem from="1657827565403" duration="69000" />
+      <workItem from="1657913826271" duration="254000" />
     </task>
     <servers />
   </component>
@@ -132,5 +138,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

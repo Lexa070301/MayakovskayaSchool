@@ -21,12 +21,9 @@ $(document).ready(function () {
       strings: [
         `<span class="green">Онлайн</span>-школа для <br>
           ребят с большими <br>
-          <span class="pink">амбицыями</span>`,
-        `<span class="green">Онлайн</span>-школа для <br>
-          ребят с большими <br>
           <span class="pink">амбициями</span>`
       ],
-      typeSpeed: 80,
+      typeSpeed: 50,
       backSpeed: 100,
       backDelay: 500
     })
@@ -87,6 +84,8 @@ $(document).ready(function () {
       });
     }
   }
+
+  
 
   document.addEventListener("mousemove", function (event) {
     this.querySelectorAll(".mouse").forEach((shift) => {
