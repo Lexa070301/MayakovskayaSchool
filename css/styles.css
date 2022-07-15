@@ -24,7 +24,8 @@
 }
 
 ::selection {
-    background-color: var(--green-light);
+    background-color: #a8fff1;
+    color: var(--black)
 }
 
 * {
