@@ -1,9 +1,21 @@
 $(document).ready(function () {
+  SmoothScroll({
+    animationTime: 600,
+    stepSize: 75,
+    accelerationDelta: 30,
+    accelerationMax: 2,
+    keyboardSupport: !0,
+    arrowScroll: 50,
+    pulseAlgorithm: !0,
+    pulseScale: 4,
+    pulseNormalize: 1,
+    touchpadSupport: !0
+  });
   new WOW().init();
   $('.drawer').drawer();
 
   $("a").on('click', function (event) {
-    if($(this).attr("href")[0] === "#") {
+    if ($(this).attr("href")[0] === "#") {
       if (this.hash !== "") {
         event.preventDefault();
         const hash = this.hash;
@@ -85,7 +97,6 @@ $(document).ready(function () {
     }
   }
 
-  
 
   document.addEventListener("mousemove", function (event) {
     this.querySelectorAll(".mouse").forEach((shift) => {
