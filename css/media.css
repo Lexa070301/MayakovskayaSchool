@@ -182,7 +182,7 @@
     .scroller,
     .faq,
     .simple,
-    .prices,
+    section.prices,
     footer {
         padding: 50px 0;
     }
@@ -219,6 +219,10 @@
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+    }
+
+    .prices-image {
+        display: none;
     }
 
     .footer__content {

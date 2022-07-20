@@ -14,12 +14,14 @@ $(document).ready(function () {
   new WOW().init();
   $('.drawer').drawer();
 
-  $("a").click(function () {
+  $("a").click(function (e) {
     const anchor = $(this).attr("href")
+    console.log(anchor)
     if (anchor[0] === "#") {
+      e.preventDefault()
       $('html, body').animate({
         scrollTop: $(`${anchor}`).offset().top
-      }, 10);
+      }, 100);
     }
   });
 
@@ -104,27 +106,30 @@ $(document).ready(function () {
   });
 
   const line = $(".scroller__line")
-  const ok1 = $(".scroller__line__items__item__icon.one")
-  const ok2 = $(".scroller__line__items__item__icon.two")
-  const ok3 = $(".scroller__line__items__item__icon.three")
-  const top = line.offset().top - screen.height
-  const bottom = line.offset().top
-  let percent = 100 - (bottom - window.scrollY) / (bottom - top) * 100
+  if(line.length > 0) {
+    const ok1 = $(".scroller__line__items__item__icon.one")
+    const ok2 = $(".scroller__line__items__item__icon.two")
+    const ok3 = $(".scroller__line__items__item__icon.three")
+    const top = line.offset().top - screen.height
+    const bottom = line.offset().top
+    let percent = 100 - (bottom - window.scrollY) / (bottom - top) * 100
 
-  function loadScrollerAnim() {
-    line.css('width', percent + "%")
-    percent > 25 ? ok1.css('opacity', '100%') : ok1.css('opacity', '0%')
-    percent > 50 ? ok2.css('opacity', '100%') : ok2.css('opacity', '0%')
-    percent > 75 ? ok3.css('opacity', '100%') : ok3.css('opacity', '0%')
+    function loadScrollerAnim() {
+      line.css('width', percent + "%")
+      percent > 25 ? ok1.css('opacity', '100%') : ok1.css('opacity', '0%')
+      percent > 50 ? ok2.css('opacity', '100%') : ok2.css('opacity', '0%')
+      percent > 75 ? ok3.css('opacity', '100%') : ok3.css('opacity', '0%')
+    }
+
+    loadScrollerAnim()
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > top && window.scrollY < bottom) {
+        percent = 100 - (bottom - window.scrollY) / (bottom - top) * 100
+        loadScrollerAnim()
+      }
+    })
   }
 
-  loadScrollerAnim()
-  window.addEventListener('scroll', function () {
-    if (window.scrollY > top && window.scrollY < bottom) {
-      percent = 100 - (bottom - window.scrollY) / (bottom - top) * 100
-      loadScrollerAnim()
-    }
-  })
 
   $("input[type='tel']").inputmask("+7(999)999-99-99")
   $("button[type='submit']").on("click", function (e) {
