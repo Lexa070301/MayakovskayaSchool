@@ -14,17 +14,12 @@ $(document).ready(function () {
   new WOW().init();
   $('.drawer').drawer();
 
-  $("a").on('click', function (event) {
-    if ($(this).attr("href")[0] === "#") {
-      if (this.hash !== "") {
-        event.preventDefault();
-        const hash = this.hash;
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 800, function () {
-          window.location.hash = hash;
-        });
-      }
+  $("a").click(function () {
+    const anchor = $(this).attr("href")
+    if (anchor[0] === "#") {
+      $('html, body').animate({
+        scrollTop: $(`${anchor}`).offset().top
+      }, 10);
     }
   });
 
@@ -107,6 +102,7 @@ $(document).ready(function () {
       shift.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
     });
   });
+
   const line = $(".scroller__line")
   const ok1 = $(".scroller__line__items__item__icon.one")
   const ok2 = $(".scroller__line__items__item__icon.two")
