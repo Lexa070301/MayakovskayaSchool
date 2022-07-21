@@ -3,6 +3,14 @@
         max-width: 1280px;
     }
 
+    .directions2__img {
+        width: 100%
+    }
+
+    .directions2__item__name {
+        font-size: 42px;
+    }
+
     .h1 {
         font-size: 52px;
         line-height: 60px;
@@ -133,7 +141,9 @@
     .h2 {
         font-size: 32px;
     }
-
+    .directions2__img {
+        margin-bottom: 0;
+    }
     .first-screen__column {
         width: 100%;
     }
@@ -214,6 +224,10 @@
 }
 
 @media screen and (max-width: 800px) {
+    .directions2__content {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
     .questions__top {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -391,8 +405,7 @@
     }
 
     .form-block {
-        margin-top: 30px;
-        padding-top: 50px;
+        padding-top: 80px;
     }
 
     .first-screen__title {

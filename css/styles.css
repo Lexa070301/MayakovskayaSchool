@@ -247,7 +247,148 @@ body {
 }
 
 .first-screen {
-    margin-bottom: 75px;
+    padding-bottom: 75px;
+}
+
+header.math {
+    background-color: #F44336;
+    color: white;
+}
+
+header.math .menu__item__link {
+    color: white;
+}
+
+.math .first-screen {
+    background-color: #F44336;
+    color: white;
+}
+
+header.russian {
+    background-color: #E91E63;
+    color: white;
+}
+
+header.russian .menu__item__link {
+    color: white;
+}
+
+.russian .first-screen {
+    background-color: #E91E63;
+    color: white;
+}
+
+header.society {
+    background-color: #9C27B0;
+    color: white;
+}
+
+header.society .menu__item__link {
+    color: white;
+}
+
+.society .first-screen {
+    background-color: #9C27B0;
+    color: white;
+}
+
+header.history {
+    background-color: #673AB7;
+    color: white;
+}
+
+header.history .menu__item__link {
+    color: white;
+}
+
+.history .first-screen {
+    background-color: #673AB7;
+    color: white;
+}
+
+header.literature {
+    background-color: #3F51B5;
+    color: white;
+}
+
+header.literature .menu__item__link {
+    color: white;
+}
+
+.literature .first-screen {
+    background-color: #3F51B5;
+    color: white;
+}
+
+header.chemistry {
+    background-color: #2196F3;
+    color: white;
+}
+
+header.chemistry .menu__item__link {
+    color: white;
+}
+
+.chemistry .first-screen {
+    background-color: #2196F3;
+    color: white;
+}
+
+header.biology {
+    background-color: #4CAF50;
+    color: white;
+}
+
+header.biology .menu__item__link {
+    color: white;
+}
+
+.biology .first-screen {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+header.physics {
+    background-color: #FFA000;
+    color: white;
+}
+
+header.physics .menu__item__link {
+    color: white;
+}
+
+.physics .first-screen {
+    background-color: #FFA000;
+    color: white;
+}
+
+header.informatics {
+    background-color: #009688;
+    color: white;
+}
+
+header.informatics .menu__item__link {
+    color: white;
+}
+
+.informatics .first-screen {
+    background-color: #009688;
+    color: white;
+}
+
+header.english {
+    background-color: #FF5722;
+    color: white;
+}
+
+header.english .menu__item__link {
+    color: white;
+}
+
+.english .first-screen {
+    background-color: #FF5722;
+    color: white;
 }
 
 .first-screen .container {
@@ -431,6 +572,53 @@ body {
     -o-transition: 0.3s ease all;
     transition: 0.3s ease all;
 }
+
+
+.directions2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.directions2__content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 60px 1fr 60px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+.directions2__item {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--black);
+    transition: 0.3s ease all;
+}
+
+.directions2__item:hover {
+    transform: scale(1.03)
+}
+
+.directions2__img {
+    margin-bottom: -30px;
+}
+
+.directions2__item__name {
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 20px;
+    line-height: 100%;
+}
+
+.directions2__item__class {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--light-grey)
+}
+
 
 .teachers {
     padding: 100px 0;
@@ -1357,7 +1545,7 @@ a.footer__text:hover {
 .footer__block__link.instagram:hover {
     background: #f09433;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }

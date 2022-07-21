@@ -10,9 +10,9 @@
       <change beforePath="$PROJECT_DIR$/ege.html" beforeDir="false" afterPath="$PROJECT_DIR$/ege.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/english.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/icons/socials/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/socials/instagram.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/informatics.html" beforeDir="false" afterPath="$PROJECT_DIR$/informatics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/literature.html" beforeDir="false" afterPath="$PROJECT_DIR$/literature.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/math.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oge.html" beforeDir="false" afterPath="$PROJECT_DIR$/oge.html" afterDir="false" />
@@ -127,7 +127,9 @@
       <workItem from="1657913826271" duration="1677000" />
       <workItem from="1657972065346" duration="582000" />
       <workItem from="1658140263341" duration="25000" />
-      <workItem from="1658341300079" duration="7112000" />
+      <workItem from="1658341300079" duration="7738000" />
+      <workItem from="1658392525618" duration="379000" />
+      <workItem from="1658433925883" duration="4060000" />
     </task>
     <servers />
   </component>
