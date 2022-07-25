@@ -1585,7 +1585,7 @@ a.footer__text:hover {
 }
 
 .chart__img {
-    width: 75%;
+    width: 85%;
 }
 
 .chart__text {
@@ -1598,18 +1598,22 @@ a.footer__text:hover {
 }
 
 .chart__text.one {
-    left: 320px;
-    top: 350px;
-}
-.chart__text.two {
-    left: 500px;
-    top: -30px;
-}
-.chart__text.three {
-    left: 900px;
+    left: 260px;
     top: 300px;
 }
+.chart__text.two {
+    left: 370px;
+    top: -80px;
+}
+.chart__text.three {
+    left: 750px;
+    top: 290px;
+}
 .chart__text.four {
-    left: 1100px;
-    top: 0;
+    left: 870px;
+    top: 110px;
+}
+.chart__text.five {
+    left: 1090px;
+    top: -60px;
 }

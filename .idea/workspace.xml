@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/icons/socials/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/icons/socials/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chart.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chart.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +117,10 @@
       <workItem from="1658392525618" duration="379000" />
       <workItem from="1658433925883" duration="4116000" />
       <workItem from="1658484577264" duration="21000" />
-      <workItem from="1658512617752" duration="3534000" />
+      <workItem from="1658512617752" duration="3891000" />
+      <workItem from="1658579286602" duration="5000" />
+      <workItem from="1658749787271" duration="23000" />
+      <workItem from="1658772948493" duration="933000" />
     </task>
     <servers />
   </component>
