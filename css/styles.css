@@ -884,6 +884,7 @@ header.english .menu__item__link {
 
 .subjects {
     padding: 100px 0;
+    background-color: var(--pink-light)
 }
 
 .subjects__content {
@@ -1578,7 +1579,7 @@ a.footer__text:hover {
     padding: 100px 0
 }
 
-.chart .container {
+.chart .container:last-child {
     display: flex;
     justify-content: flex-start;
     position: relative;
@@ -1595,6 +1596,10 @@ a.footer__text:hover {
     background-color: white;
     border-radius: 10px;
     box-shadow: var(--shadow);
+}
+
+.chart__title {
+    padding-bottom: 200px;
 }
 
 .chart__text.one {
