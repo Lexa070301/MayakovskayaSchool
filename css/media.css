@@ -491,7 +491,7 @@
     }
 
     .first-screen__title {
-        font-size: 40px;
+        font-size: 40px!important;
     }
 
     .form {
@@ -535,9 +535,9 @@
 
 @media screen and (max-width: 400px) {
     .first-screen__title {
-        font-size: 24px;
-        line-height: 28px;
-        margin-top: 30px;
+        font-size: 24px!important;
+        line-height: 28px!important;
+        margin-top: 30px!important;
     }
 
     .form {
