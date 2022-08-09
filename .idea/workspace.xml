@@ -3,7 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="d3f93f3e-150d-4703-89be-0781ba14943d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/biology.html" beforeDir="false" afterPath="$PROJECT_DIR$/biology.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chemistry.html" beforeDir="false" afterPath="$PROJECT_DIR$/chemistry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ege.html" beforeDir="false" afterPath="$PROJECT_DIR$/ege.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/english.html" beforeDir="false" afterPath="$PROJECT_DIR$/english.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/history.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informatics.html" beforeDir="false" afterPath="$PROJECT_DIR$/informatics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/literature.html" beforeDir="false" afterPath="$PROJECT_DIR$/literature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/math.html" beforeDir="false" afterPath="$PROJECT_DIR$/math.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oge.html" beforeDir="false" afterPath="$PROJECT_DIR$/oge.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physics.html" beforeDir="false" afterPath="$PROJECT_DIR$/physics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prices.html" beforeDir="false" afterPath="$PROJECT_DIR$/prices.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/russian.html" beforeDir="false" afterPath="$PROJECT_DIR$/russian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secondary-school.html" beforeDir="false" afterPath="$PROJECT_DIR$/secondary-school.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/society.html" beforeDir="false" afterPath="$PROJECT_DIR$/society.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +136,11 @@
       <workItem from="1659454922181" duration="914000" />
       <workItem from="1659524807677" duration="31000" />
       <workItem from="1659623021494" duration="285000" />
-      <workItem from="1659801825510" duration="112000" />
+      <workItem from="1659801825510" duration="218000" />
+      <workItem from="1659857106435" duration="311000" />
+      <workItem from="1659861205698" duration="7000" />
+      <workItem from="1660062118220" duration="265000" />
+      <workItem from="1660066635470" duration="648000" />
     </task>
     <servers />
   </component>
