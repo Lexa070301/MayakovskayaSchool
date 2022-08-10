@@ -57,7 +57,7 @@ if(isset($_POST["submit"])) {
             // Message lines should not exceed 70 characters (PHP rule), so wrap it
             $message = wordwrap($message, 70);
             // Send Mail By PHP Mail Function
-            mail("Lexa070301@gmail.com", $subject, $message, $headers);
+            mail("mayakovskayaanastasiya@gmail.com", $subject, $message, $headers);
             ?>
             <div class="email-card">
                 <img class="email-card__icon" src="img/icons/ok.svg" alt="Ok">
