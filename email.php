@@ -57,7 +57,7 @@ if(isset($_POST["submit"])) {
             // Message lines should not exceed 70 characters (PHP rule), so wrap it
             $message = wordwrap($message, 70);
             // Send Mail By PHP Mail Function
-            mail("mayakovskayaanastasiya@gmail.com", $subject, $message, $headers);
+            mail("mayakovskaya_school@mail.ru", $subject, $message, $headers);
             ?>
             <div class="email-card">
                 <img class="email-card__icon" src="img/icons/ok.svg" alt="Ok">
@@ -73,8 +73,8 @@ if(isset($_POST["submit"])) {
     <div class="footer__content">
       <div class="footer__block">
         <h4 class="footer__title">Почта</h4>
-        <a href="mailto:mayakovskayaanastasiya@gmail.com" class="footer__text text">
-          mayakovskayaanastasiya@gmail.com
+        <a href="mailto:mayakovskaya_school@mail.ru" class="footer__text text">
+          mayakovskaya_school@mail.ru
         </a>
       </div>
       <div class="footer__block">
@@ -86,7 +86,7 @@ if(isset($_POST["submit"])) {
       <div class="footer__block">
         <h4 class="footer__title">Напишите нам</h4>
         <div class="footer__block__links">
-          <a class="footer__block__link telegram" target="_blank">
+          <a class="footer__block__link telegram" href="https://t.me/anastasiya_mayakovskaya" target="_blank">
             <img src="img/icons/socials/telegram.svg" alt="Telegram">
           </a>
           <a class="footer__block__link whatsapp" href="https://api.whatsapp.com/send?phone=79969190166" target="_blank">
